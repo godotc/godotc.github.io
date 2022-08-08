@@ -1,0 +1,15 @@
+<script src="https://giscus.app/client.js"
+    data-repo="godotc/godotc.github.io"
+    data-repo-id="R_kgDOHx_1PA"
+    data-category="Comments"
+    data-category-id="DIC_kwDOHx_1PM4CQrzX"
+    data-mapping="url"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="dark_dimmed"
+    data-lang="en"
+    crossorigin="anonymous"
+    async>
+</script>

@@ -2,11 +2,33 @@ site_name: Godot Space
 site_url: https://godotc.github.io
 site_author: godot42
 site_description: godot42's personal site
+edit_uri: edit/main/docs
+
+## [ top-right corner ]
+repo_url: https://github.com/godotc/godotc
+repo_name: godotc.github.io
+
+## [ bottom-left corner ]
+copyright: Copyright &copy; 2022 godot42
+
+#-----------------------Navigation------------------------------
+
+# [ Navigation ]
+nav:
+  - Home:
+      - HOME/index.md
+      - 信息: HOME/detail.md
+  - Blog:
+      - Shell:
+          - Bash 常见用法: Blog/Shell/Bash常用命令.md
+
+#---------------------------------------------------------------
 
 # [UI]
 ## [top]
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - scheme: default # Daylight mode
       primary: indigo # the top side
@@ -30,12 +52,6 @@ theme:
   language: en
   icon:
     repo: fontawesome/brands/github
-edit_uri: edit/main/docs
-## [ top-right corner ]
-repo_url: https://github.com/godotc/godotc
-repo_name: godotc.github.io
-## [ bottom-left corner ]
-copyright: Copyright &copy; 2022 godot42
 ## [ bottom-right corner ]
 extra:
   social: # icons
@@ -46,10 +62,6 @@ extra:
       link: https://github.com/godotc
       name: GitHub | godotc
 
-# [ Navigation ]
-# nav:
-#   - Blog
-
 # [Extensions]
 plugins:
   - search: # 现在还不支持中文搜索 支持之后可以设置语言
@@ -58,8 +70,8 @@ plugins:
         - en
         - ja
       separator: '[\s\u200b\-]'
-
   - tags # 给单篇文章添加标签 https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags
+
 markdown_extensions:
   - pymdownx.arithmatex: # latex支持
       generic: true
@@ -71,6 +83,7 @@ markdown_extensions:
       auto_title: true # 显示编程语言名称
   - pymdownx.superfences # 代码块高亮插件
   - meta # 支持Markdown文件上方自定义标题标签等
+
 extra_javascript:
   # latex支持
   # check https://squidfunk.github.io/mkdocs-material/reference/mathjax/?h=math for more information
@@ -78,6 +91,8 @@ extra_javascript:
   - mkdocs/javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # https://cdn.bytedance.com/?query=mathjax&version=3.2.0
+  - mkdocs/javascripts/giscuss.js
+
 extra_css:
   # - mkdocs/css/no-footer.css # 不使用底部的翻页
   # - mkdocs/css/unordered-list-symbols.css # multiply unordered list symbols
