@@ -1,5 +1,4 @@
 name: publish site
-
 on:
   push:
     branches:
@@ -7,13 +6,13 @@ on:
   pull_request:
     branches:
       - main
-
 jobs:
-  runs-on: ubuntu-latest # create a VM
-  steps:
-    - uses: actions/checkout@v2 # checkout to main branch
-    - uses: actions/setup-python@v2 # install python3 env
-      with:
-        python-version: 3.x
-    - run: pip install mkdocs-material
-    - run: mkdocs gh-deploy --force
+  deploy:
+    runs-on: ubuntu-latest # create a VM
+    steps:
+      - uses: actions/checkout@v2 # checkout to main branch
+      - uses: actions/setup-python@v2 # install python3 env
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material
+      - run: mkdocs gh-deploy --force
