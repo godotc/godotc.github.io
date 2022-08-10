@@ -1,0 +1,129 @@
+{
+  "main": {
+    "id": "ff8e622412a8d9ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ac7d2d030436cf7",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c31d3933140d214f",
+    "type": "split",
+    "children": [
+      {
+        "id": "63d1447ebbb19cb5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd7a11745d51abfe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ad2e7b5b1e9863c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "f6ce05211203bf7b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9fab0419e91ef250",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b7ddb74dd001e9ab",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "fbc9d0d71902f6a4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "70b21301d6f12d11",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 271.03813552856445
+  },
+  "right": {
+    "id": "0f788ea0b338f251",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "dd7a11745d51abfe",
+  "lastOpenFiles": [
+    "Blog/JAVA/牛客社区项目.md",
+    "Blog/Docker/run Command.md",
+    "Diary/2022-08-10.md",
+    "1.png",
+    "2022-08-10.md",
+    "Blog/Docker/docker run.md",
+    "Blog/Shell/Bash常用命令.md",
+    "index.md",
+    "Untitled.md",
+    "HOME/index.md"
+  ]
+}

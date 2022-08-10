@@ -21,8 +21,12 @@ nav:
   - Blog:
       - Shell:
           - Bash 常见用法: Blog/Shell/Bash常用命令.md
+      - Docker:
+          - Run 命令使用: Blog/Docker/Run命令.md
       - Network:
           - 非阻塞与异步IO: Blog/Net/阻塞与非阻塞、同步与异步、异步IO.md
+      - JAVA:
+          - 牛客社区项目总结: Blog/JAVA/牛客社区项目总结.md
 
 #---------------------------------------------------------------
 
