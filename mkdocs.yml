@@ -16,17 +16,31 @@ copyright: Copyright &copy; 2022 godot42
 # [ Navigation ]
 nav:
   - Home:
-      - HOME/index.md
+      - index.md
       - 信息: HOME/detail.md
   - Blog:
       - Shell:
-          - Bash 常见用法: Blog/Shell/Bash常用命令.md
+          - Bash 语言概览: Blog/Shell/Bash-lang.md
+          - 快捷键: Blog/Shell/快捷键.md
       - Docker:
           - Run 命令使用: Blog/Docker/Run命令.md
+          - 网络管理: Blog/Docker/docker网络管理.md
       - Network:
-          - 非阻塞与异步IO: Blog/Net/阻塞与非阻塞、同步与异步、异步IO.md
+          - 非阻塞与异步IO: Blog/Network/阻塞与非阻塞、同步与异步、异步IO.md
       - JAVA:
           - 牛客社区项目总结: Blog/JAVA/牛客社区项目总结.md
+      - Linux:
+          - 常忘指令: Blog/Linux/常忘指令.md
+          - 换源: Blog/Linux/Linux换源.md
+          - 用户与权限: Blog/Linux/用户与权限.md
+          - 获取Linux版本信息: Blog/Linux/获取Linux版本信息.md
+      - Vim:
+          - 查找与替换: Blog/Vim/查找与替换.md
+          - 多文件操作: Blog/Vim/多文件操作.md
+          - 进阶操作: Blog/Vim/进阶操作.md
+      - 数据库:
+          - MYSQL:
+              - 安装MYSQL: Blog/数据库/mysql/安装MYSQL.md
 
 #---------------------------------------------------------------
 

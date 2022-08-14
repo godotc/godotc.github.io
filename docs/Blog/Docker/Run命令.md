@@ -2,25 +2,42 @@
 
 > docker run: 创建一个容器附加相应的参数
 
-## 选择镜像和容器名字
-
-    -d --detach 指定后台运行
-
+## 选择镜像和容器名字(--name)
     --name [容器名字]
+---
 
-## 端口映射
+## 网络配置
+
+### --net
+1. --net=bridge 这个是默认值，连接到默认的网桥。(分配172.**地址)
+2. –net=host 共享主机网络空间，可以像普通进程一样进行通信(不分配独立地址)
+3. -–net=container:NAME_or_ID 让 Docker 和已存在的容器共享 IP 地址和端口等网络资源，两者进程可以直接通过 lo 环回接口通信。
+4. -–net=none 让 Docker 将新容器放到隔离的网络栈中，但是不进行网络配置。之后，用户可以自己进行配置。
+
+> 使用 --net=container:NAME_or_ID 运行一组docker cluster 进行集成环境测试
+
+### 自定义网络
+
+在[ 自定义网络](docker网络管理#2%20自定义网络)后:
+```shell
+$ docker run --net={custom_net} ...
+```
+
+
+## 端口映射(-p/P)
 
     -p [本机端口]:[容器端口]  (可多次使用-p 映射多个端口)
 
     -P 随机映射一个本机端口到容器的80端口
 
 ## 启动模式
+    -d --detach 指定后台运行
 
     -i 以交互模式启动，通常与-t联用
 
     -t 选择一个shell程序使用 如: -it /bin/bash
 
-## 连接到STDIN/STDOUT/STDERR(-a)
+## 连接到标准输出(-a)
 
 -a 标志告诉 docker run 绑定到容器的STDIN，STDOUT或STDERR。 这使得可以根据需要操纵输出和输入。
 

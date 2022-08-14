@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9ac7d2d030436cf7",
+        "id": "3e78573e6cf47337",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Blog/Docker/Run命令.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -35,7 +39,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Blog/Docker/Run命令.md"
+              }
             }
           },
           {
@@ -44,12 +50,41 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "执行命令",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "70b21301d6f12d11",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Blog/Docker/Run命令.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "fbc9d0d71902f6a4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Blog/Docker/Run命令.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -71,39 +106,12 @@
               "type": "starred",
               "state": {}
             }
-          },
-          {
-            "id": "fbc9d0d71902f6a4",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "70b21301d6f12d11",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
-              }
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 271.03813552856445
+    "width": 280.49999809265137
   },
   "right": {
     "id": "0f788ea0b338f251",
@@ -115,15 +123,15 @@
   },
   "active": "dd7a11745d51abfe",
   "lastOpenFiles": [
-    "Blog/JAVA/牛客社区项目.md",
-    "Blog/Docker/run Command.md",
-    "Diary/2022-08-10.md",
-    "1.png",
-    "2022-08-10.md",
-    "Blog/Docker/docker run.md",
-    "Blog/Shell/Bash常用命令.md",
-    "index.md",
-    "Untitled.md",
-    "HOME/index.md"
+    "Blog/Linux/Linux换源.md",
+    "Blog/Linux/用户与权限.md",
+    "Blog/Linux/获取Linux版本信息.md",
+    "Blog/Docker/docker网络管理.md",
+    "Blog/Docker/Image及Container管理.md",
+    "Blog/JAVA/牛客社区项目总结.md",
+    "Blog/服务器/nginx.md",
+    "Diary/2022-08-14.md",
+    "Blog/Shell/Bash lang.md",
+    "Blog/Vim/多文件操作.md"
   ]
 }

@@ -1,5 +1,7 @@
 {
   "theme": "obsidian",
-  "cssTheme": "Big Sur Aesthetic",
-  "translucency": false
+  "cssTheme": "Atom",
+  "translucency": false,
+  "interfaceFontFamily": "",
+  "baseFontSize": 19
 }

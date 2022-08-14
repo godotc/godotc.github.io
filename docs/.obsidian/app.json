@@ -3,7 +3,14 @@
   "promptDelete": false,
   "showLineNumber": false,
   "spellcheck": true,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "showFrontmatter": true,
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "strictLineBreaks": false,
+  "smartIndentList": false,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./attachments"
 }
