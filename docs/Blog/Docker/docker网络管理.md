@@ -66,7 +66,7 @@ $ docker network create --driver bridge --subnet 192.168.0.0/16 --gateway 192.16
 
 $ docker inspect custom-net
 ```
-2. 于是在[[Run命令#网络配置#自定义网络]] 中加入:
+2. 于是在[自定义网络](Run命令#网络配置#自定义网络) 中加入:
 	- --net=custom-net
 3. 网络连通
 ---
