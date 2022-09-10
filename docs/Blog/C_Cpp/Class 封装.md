@@ -1,0 +1,21 @@
+## 1. protected  public private 
+---
+### 1. 权限区别
+|            | public | protected | private |
+|:----------:|:------:|:---------:|:-------:|
+|  类内访问  |   √    |     √     |    √    |
+|  类外访问(对象/实例访问)  |   √    |     ×     |    ×    |
+|  子类访问  |   √    |     √     |    ×    |
+|  友元函数访问  |   √    |     √     |    √    |
+|  友元对象(class)访问  |   √    |     ×     |  ×     |
+
+
+`public` 与 `protect` 的主要区别: <font color=red > 实例化的class 对象 无法访问 protect 成员, 只能在 class definition 中访问</font>
+
+### 2. 继承之后
+
+| 继承方式  |  public   | protected | private |
+|:---------:|:---------:|:---------:|:-------:|
+|  public   |  public   | protected | 无法访问 |
+| protected | <font color=red>protected</font> | protected | 无法访问 |
+|  private  |  private  |  private  | 无法访问 | 

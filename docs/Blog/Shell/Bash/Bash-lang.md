@@ -186,14 +186,14 @@ read :
 ### 2. 子串操作
 
 | command                | 用法                                 |
-| :--------------------- | :----------------------------------- |
+|:---------------------- |:------------------------------------ :|
 | ${#var}                | 返回变量长度                         |
 | ${var:start}           | 返回 offset 数值之后的字符           |
 | ${var:start:length}    |                                      |
 | ${var#word}            | 从变量 开头 删除 最短匹配的 word子串 |
 | ${var##word}           | 从变量开头删除 最长的                |
 | ${var%word}            | 从 结尾 删除 最短                    |
-| ${var%%word}           | 从 结尾 删除 最长                    |
+ | $`{var%%word}`         | 从 结尾 删除 最长                    
 | ${var/pattern/string}  | 用 string 代替第一个匹配的 pattern   |
 | ${var//pattern/string} | 用 string 代替 所有 pattern          |
 
@@ -201,14 +201,14 @@ read :
 
 ### 1. 运算符
 
-![shell 算数运算符](pic/shell算数运算符.png
-<img src="./pic/shell算数运算符.png">
+![shell算数运算符](pic/shell算数运算符.png)
+```shell
 or file_name in `ls *str*.jpg`;
 		do mv $file_name `echo ${file_name//str/}`
 	done
-	
-
 ```
+		
+
 
 ### 2.  数据备份，删除过期的脚本
 
@@ -281,7 +281,7 @@ find ${path:=/data/temp} -name '*.tar.gz' -type f -mtime+7|xargx rm -f
 
 ## Control Flow
 
-### 1. IF
+### 条件判断
 if \<condition\> ; then [command] ; fi
 
 ```shell 

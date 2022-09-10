@@ -7,10 +7,11 @@
   "showFrontmatter": true,
   "showIndentGuide": false,
   "strictLineBreaks": false,
-  "smartIndentList": false,
+  "smartIndentList": true,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "./attachments",
+  "newFileLocation": "current"
 }

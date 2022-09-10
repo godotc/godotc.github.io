@@ -1,4 +1,6 @@
 [
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-languagetool-plugin"
+  "obsidian-languagetool-plugin",
+  "table-editor-obsidian",
+  "quick-latex"
 ]

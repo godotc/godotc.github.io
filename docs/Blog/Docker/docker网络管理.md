@@ -1,4 +1,4 @@
-# 1. 获取 container 的内网IP地址
+## 1. 获取 container 的内网IP地址
 
 1. 进入容器内部后
 
@@ -52,7 +52,7 @@ docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAdd
 ---
 
 
-# 2. 自定义网络
+## 2. 自定义网络
 
 - container的默认ip为172.\*\*，网关也同样为172.\*\*
 - 这样导致容器在不同的网关下不能ping通

@@ -1,11 +1,13 @@
-# 查看 linux 内核版本
+# 获取Linux版本信息
+## 查看 linux 内核版本
 ```shell
 1.
 	cat /proc/version
 2.
 	uname -a
 ```
-# 查看linux 系统版本
+
+## 查看linux 系统版本
 ```shell
 1.
 	apt install lsb-release
@@ -18,7 +20,7 @@
 	hostnamectl
 ```
 
-# 查看debian版本
+## 查看debian版本
 ```shell
 	cat /etc/debian_version
 	
