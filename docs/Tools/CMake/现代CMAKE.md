@@ -192,9 +192,9 @@ message("CMAKE_BUILD_TYPE is: $CACHE{CMAKE_BUILD_TYPE}")
 
 
 ---
-## 8. CMAKE_BUILD_TYPE
+## 8. -D 附加参数
 
-### type 参数
+### 1. CMAKE_BUILD_TYPE 参数
 - `Debug`: 完全不优化, 便于调试   `-O0 -g`
 - `Release`: 优化程度高，但编译慢 `-O3 -DNDEBUG`
 - `MinSizeRel`: 最小体积发布，比 Release 小，但是不完全优化，减少了二进制文件的体积 `-Os -DNDEBUG`
@@ -203,7 +203,7 @@ message("CMAKE_BUILD_TYPE is: $CACHE{CMAKE_BUILD_TYPE}")
 
 >此外定义了 `NDEBUG` 宏回事 `assert` 被去除掉
 
-### 设置默认 Release
+#### 设置默认 Release
 - 如果不想指定 `-D CMAKE_BUILD_TYPE....`  参数， 或者忘记指定
 - 可以判断参数有无（默认不指定即为**空串**）
 ```cmake
@@ -211,6 +211,12 @@ if (NOT CMAKE_BUILD_TYPE)
 	set(CMAKE_BUILD_TYPE Release)
 endif()
 ```
+### 2. 指定编译器
+```CMake
+$ cmake -D CAMKE_C_COMPILER=...
+$ cmake -D CAMKE_CXX_COMPILER=...
+```
+
 
 ---
 ## 9. 常用变量

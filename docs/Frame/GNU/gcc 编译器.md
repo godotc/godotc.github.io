@@ -9,5 +9,11 @@
 |   -f   | no-elide-constructors | 关闭返回值优化 |
 
 ## 编译链接
-| option |        second         |  description   |
-|:------:|:---------------------:|:--------------:|
+| option |   second    |     description     |
+|:------:|:-----------:|:-------------------:|
+|   -E   |   \*.cpp    |    preprocessor     |
+|   -S   |   \*.cpp    |   compile to asm    |
+|   -c   | \*.cpp \*.o | 生成.o文件,目标文件 |
+| -L -o  |   \*.lib    |       连接库        | 
+
+

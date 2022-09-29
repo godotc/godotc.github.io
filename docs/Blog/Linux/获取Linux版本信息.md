@@ -20,9 +20,15 @@
 	hostnamectl
 ```
 
-## 查看debian版本
+### 查看debian版本
 ```shell
 	cat /etc/debian_version
 	
 	cat /etc/os-release  
+```
+
+## 查看内核操作系统位数
+```shell
+uname -a
+getconfig LONG_BIT
 ```
