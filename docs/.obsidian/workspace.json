@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "ff8e622412a8d9ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7f6fd0f5e26072d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d38d9754dd65c2be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Makefile/一些说明.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aedc070d4b402aad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Library/GNU/GDB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c31d3933140d214f",
+    "type": "split",
+    "children": [
+      {
+        "id": "63d1447ebbb19cb5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd7a11745d51abfe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ad2e7b5b1e9863c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tools/Makefile/一些说明.md"
+              }
+            }
+          },
+          {
+            "id": "f6ce05211203bf7b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "EPOLL",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "70b21301d6f12d11",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tools/Makefile/一些说明.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "fbc9d0d71902f6a4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tools/Makefile/一些说明.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "9fab0419e91ef250",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "b7ddb74dd001e9ab",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 305.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "0f788ea0b338f251",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d38d9754dd65c2be",
+  "lastOpenFiles": [
+    "Tools/Makefile/一些说明.md",
+    "Blog/C_Cpp/宏定义.md",
+    "Blog/计组/RISC-V.md",
+    "Library/GNU/GDB.md",
+    "Tools/Makefile/args.md",
+    "Blog/JAVA/牛客社区项目总结.md",
+    "Blog/Linux/常忘指令.md",
+    "面试相关/设计一个无锁队列.md",
+    "Blog/服务器/LibEvent.md",
+    "Blog/C_Cpp/位操作.md"
+  ]
+}

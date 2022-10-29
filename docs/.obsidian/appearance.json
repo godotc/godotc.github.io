@@ -3,5 +3,6 @@
   "cssTheme": "Atom",
   "translucency": false,
   "interfaceFontFamily": "",
-  "baseFontSize": 19
+  "baseFontSize": 18,
+  "accentColor": "#7553e4"
 }

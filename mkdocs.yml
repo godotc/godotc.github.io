@@ -19,80 +19,123 @@ nav:
       - index.md
       - 信息: HOME/detail.md
   - Blog:
-      - Shell:
-          - Bash 语言概览: Blog/Shell/Bash/Bash-lang.md
-          - Hot Key: Blog/Shell/Bash/光标移动.md
-          - 去除ls背景高光(绿色污染): Blog/Shell/Bash/去除ls背景(绿色).md
+      #- All_Go_Rhyme:
+      #    - LeetCode: Blog/All_Go_Rhyme/LeetCode.md
+      #    - NowCoder: Blog/All_Go_Rhyme/NowCoder.md
+      #    - index: "Blog/All_Go_Rhyme/Leet Code Index.md"
       - C/C++:
-          - 函数指针: Blog/C_Cpp/函数指针.md
-          - 继承: "Blog/C_Cpp/继承.md"
+          - Lock: Blog/C_Cpp/Lock.md
           - 多线程/进程: Blog/C_Cpp/MultiProcess_MultiThread.md
           - STD-IO: Blog/C_Cpp/STD_IO.md
+          - 位操作: Blog/C_Cpp/位操作.md
+          - 关键字: Blog/C_Cpp/关键字.md
+          - 函数指针: Blog/C_Cpp/函数指针.md
           - 字符串处理: Blog/C_Cpp/字符串处理.md
-          #- 关键字: Blog/C_CPP/关键字.md
+          - 宏定义: "Blog/C_Cpp/宏定义.md"
+          - 文件流: "Blog/C_Cpp/文件流.md"
+          #- 智能指针: "Blog/C_Cpp/智能指针.md"
+          - 标准库: "Blog/C_Cpp/标准库.md"
+          #- 模板: "Blog/C_Cpp/模板.md"
+          - 继承: "Blog/C_Cpp/继承.md"
+      - Golang:
+          - 手写Docker系列:
+              - 原理: Blog/Golang/手写Docker系列/原理.md
+              - 隔离: Blog/Golang/手写Docker系列/隔离pid.md
+          - channel: Blog/Golang/channel.md
+          - RPC: Blog/Golang/RPC.md
+      #- Graphics:
+      #-
       - Java:
           - 牛客社区项目总结: Blog/JAVA/牛客社区项目总结.md
-      - Golang:
-        - channel: Blog/Go/channel.md
-        - RPC: Blog/Go/RPC.md
+      #- Latex:
       - Linux:
+          - WSL:
+              - WSL2的文件IO效率低下: Blog/Linux/WSL/WSL2的文件IO效率低下.md
+              - WSL画面图形映射: Blog/Linux/WSL/WSL画面图形映射.md
+          #- Linux换源: Blog/Linux/Linux换源.md
+          - netstat: Blog/Linux/netstat.md
+          #- pacman问题: Blog/Linux/pacman问题.md
+          - Select Poll Epoll: "Blog/Linux/Select Poll Epoll.md"
+          - 工具小集合: Blog/Linux/工具小集合.md
           - 常忘指令: Blog/Linux/常忘指令.md
-          - 换源: Blog/Linux/Linux换源.md
+          #- 指定用户运行命令: Blog/Linux/Linux指定用户运行命令.md
           - 用户与权限: Blog/Linux/用户与权限.md
           - 获取Linux版本信息: Blog/Linux/获取Linux版本信息.md
-          - Pacman问题: "Blog/Linux/pacman 问题.md"
-          - Select Poll Epoll: "Blog/Linux/Select Poll Epoll.md"
-      - Docker:
-          - Run 命令使用: Blog/Docker/Run命令.md
-          - 网络管理: Blog/Docker/docker网络管理.md
-      - 网络:
-          - 非阻塞与异步IO: Blog/网络/阻塞与非阻塞、同步与异步、异步IO.md
-          # - ip地址相关: Blog/网络/ip地址相关.md
-          - Http各版本的链接: Blog/网络/Http各版本的链接.md
+      #- Luanix-OS:
+      #- Math:
+      #- Python:
+      #- Qt:
+      #   -实现一个信号槽: Blog/QT/实现一个信号槽.md
+      - Shell:
+          - Bash-lang: Blog/Shell/Bash/Bash-lang.md
+          - 光标移动: Blog/Shell/Bash/光标移动.md
+          - 去除ls背景高光(绿色污染): Blog/Shell/Bash/去除ls背景(绿色).md
       - 分布式:
-          - MIT 6.824:
-              - Map Reduce: "Blog/分布式/MIT 6.824/Map Reduce.md"
-              - 1. Distribute and GFS: "Blog/分布式/MIT 6.824/1. Distribute and GFS.md"
-              - 2. Replication: "Blog/分布式/MIT 6.824/2. Replication.md"
-              - 3. Go Threads and Raft: "Blog/分布式/MIT 6.824/3. Go Threads and Raft.md"
-      - 数据库:
-          - MYSQL:
-              - 安装MYSQL: Blog/数据库/mysql/安装MYSQL.md
-          - Redis 为什么这么快？: "Blog/数据库/Redis 为什么这么快.md"
+          - MIT-6.824:
+              #- Blog/分布式/MIT-6.824/
+              - 1.Distribute-GFS: Blog/分布式/MIT-6.824/1.Distribute-GFS.md
+              - 2.Replication: Blog/分布式/MIT-6.824/2.Replication.md
+              - 3.Go-Threads-and-Raft: Blog/分布式/MIT-6.824/3.Go-Threads-and-Raft.md
+              - Map_Reduce: Blog/分布式/MIT-6.824/Map_Reduce.md
+              #- RAFT: Blog/分布式/MIT-6.824/RAFT.md
+      #- 操作系统:
+      #- 数据库:
+      #  - MYSQL:
+      #     - 安装MYSQL: Blog/数据库/mysql/安装MYSQL.md
       # - 服务器:
       #     - TinyWebserver中的要点: "Blog/服务器/TinyWebserver 中的要点.md"
-      - 算法:
-          - LeetCode: Blog/All_Go_Rhyme/LeetCode.md
-          - NowCoder: Blog/All_Go_Rhyme/NowCoder.md
-          #- index: "Blog/All_Go_Rhyme/Leet Code Index.md"
-        
+      - 网络:
+          #- Blog/网络/
+          - Http各版本: Blog/网络/Http各版本.md
+          - 阻塞与非阻塞、同步与异步、异步IO: Blog/网络/阻塞与非阻塞、同步与异步、异步IO.md
+      - 计组:
+          #- Blog/计组/
+          - RISC-V: Blog/计组/RISC-V.md
+
+  - Library:
+      - Library/index.md
+      - GNU:
+          - GDB: Library/GNU/GDB.md
+          - gcc编译器: "Library/GNU/gcc编译器.md"
+      - LLVM:
+          - Clang: Library/LLVM/Clang.md
+          - Clangd: Library/LLVM/Clangd.md
+          - LLVM_IR快速上手: Library/LLVM/LLVM_IR快速上手.md
+          - Slang: Library/LLVM/Slang.md
+          - 内置指令: Library/LLVM/内置指令.md
 
   - Tools:
       - CMake:
-          - CMakeLists.txt格式: "Tools/CMake/CMkeLists_txt格式.md"
-          - Modern CMake: Tools/CMake/现代CMAKE.md
-          - Vcpkg的使用: "Tools/CMake/Vcpkg和CMake,Include和Link.md"
-      - Vim:
-          - 查找与替换: Tools/Vim/查找与替换.md
-          - 多文件操作: Tools/Vim/多文件操作.md
-          - 进阶操作: Tools/Vim/进阶操作.md
-          - 光标操作: "Tools/Vim/光标操作 Cursor Operation.mv"
-          - YCM: Tools/Vim/安装YCM.md
+          - CMakeLists格式: Tools/CMake/CMkeLists格式.md
+          - Vcpkg的使用: Tools/CMake/Vcpkg的使用.md
+          - 现代CMAKE: Tools/CMake/现代CMAKE.md
+      - Docker:
+          #- Tools/Docker/
+          - docker网络管理: Tools/Docker/docker网络管理.md
+          - Run命令: Tools/Docker/Run命令.md
+      - emu:
+          - Freestanding: Tools/emu/Freestanding.md
       - Git:
-          - 分支操作: Tools/Git/分支操作.md
+          - Commit: Tools/Git/Commit.md
           - Submodule: Tools/Git/Submodule.md
-          - 附加Commit: "Tools/Git/Attach to previous commit.md"
-
-  - Frames:
-      - GNU:
-          - GDB操作: Frame/GNU/GDB.md
-          - gcc编译器: "Frame/GNU/gcc 编译器.md"
-      - LLVM:
-          - Clangd: Frame/LLVM/Clangd.md
+          - 分支操作: Tools/Git/分支操作.md
+      - Makefile:
+          - args: Tools/Makefile/args.md
+          - 一些说明: Tools/Makefile/一些说明.md
+      - Vim:
+          - Vim-Plug: Tools/Vim/Vim-Plug.md
+          - 光标操作: Tools/Vim/光标操作.md
+          - 多文件操作: Tools/Vim/多文件操作.md
+          #- 字段操作
+          - 安装YCM: Tools/Vim/安装YCM.md
+          - 查找与替换: Tools/Vim/查找与替换.md
+          - 进阶操作: Tools/Vim/进阶操作.md
+          - 配置一个C_Cpp开发环境: Tools/Vim/配置一个C_Cpp开发环境.md
 
   - 面试相关:
-    - TinyWebserver中的要点: 面试相关/TinyWebserver中的要点.md
-    - 设计一个无锁队列: 面试相关/设计一个无锁队列.md
+      - Redis为什么这么快: 面试相关/Redis为什么这么快.md
+      - TinyWebserver中的要点: 面试相关/TinyWebserver中的要点.md
+      - 设计一个无锁队列: 面试相关/设计一个无锁队列.md
 #---------------------------------------------------------------
 
 # [UI]

@@ -308,7 +308,7 @@ endif()
 ```
 
 #### 3. 帮助 clangd 识别项目
-- [ 设置 include path](../../Frame/LLVM/Clangd.md#1%20设置%20include%20path)
+- [ 设置 include path](../../Library/LLVM/Clangd.md#1%20设置%20include%20path)
 
 ---
 

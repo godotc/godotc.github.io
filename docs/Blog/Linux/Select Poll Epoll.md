@@ -1,5 +1,6 @@
 # SELECT POLL EPOLL
 
+[阻塞与非阻塞、同步与异步、异步IO](../网络/阻塞与非阻塞、同步与异步、异步IO.md)
 ## select
 - 每次调用 select， 需要把 `fd_set` that listening 拷贝到 `kernel_status` (内核态)
 - 每次 select 返回结果后， 需要遍历文件描述符 判断 读/写
