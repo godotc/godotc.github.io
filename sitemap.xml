@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://godotc.github.io/Arc/</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://godotc.github.io/Arc/Lang/C_Cpp/IO/</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://godotc.github.io/Arc/Lang/C_Cpp/Lock/</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://godotc.github.io/Arc/Lang/C_Cpp/MultiProcess_MultiThread/</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://godotc.github.io/Arc/Lang/C_Cpp/struct_memory_layout/</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://godotc.github.io/Arc/Lang/C_Cpp/%E5%85%B3%E9%94%AE%E5%AD%97/</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://godotc.github.io/Arc/Lang/Golang/struct/</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+         <loc>https://godotc.github.io/Arc/Spec/BlockChain/solidity/ERC20/</loc>
+         <lastmod>2024-12-26</lastmod>
+    </url>
+</urlset>
